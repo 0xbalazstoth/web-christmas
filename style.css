@@ -1,0 +1,509 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #b1def4;
+}
+
+.snowmanParent {
+    height: 25rem;
+    width: 12rem;
+    position: absolute;
+    left: 55%;
+    bottom: 15%;
+}
+
+.foot {
+    height: 7rem;
+    width: 80%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+}
+
+.body {
+    height: 6rem;
+    width: 65%;
+    background-color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.scarf {
+    height: 0.75rem;
+    width: 70%;
+    background-color: #de4d4d;
+    margin: 0 auto;
+}
+
+.scarfDown {
+    height: 50%;
+    width: 0.75rem;
+    background-color:  #de4d4d;
+    position: absolute;
+    right: 25%;
+}
+
+.head {
+    height: 5rem;
+    width: 45%;
+    background-color: #fff;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.eleft {
+    height: 10px;
+    width: 10px;
+    background-color: #000;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+}
+
+.eright {
+    height: 10px;
+    width: 10px;
+    background-color: #000;
+    position: absolute;
+    left: 60%;
+    top: 25%;
+}
+
+.nose {
+    height: 12px;
+    width: 60px;
+    background-color: #ec7f2e;
+    position: absolute;
+    top: 50%;
+    left: -25%;
+}
+
+.hatBottom {
+    height: 1rem;
+    width: 35%;
+    background-color: #000;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hat {
+    height: 4rem;
+    width: 25%;
+    background-color: #000;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.treeParent {
+    height: 50rem;
+    width: 30rem;
+    position: absolute;
+    left: 5%;
+}
+
+.bottomParent {
+    height: 5rem;
+    width: 4rem;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bleft {
+    background-color: #a8782c;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 0%;
+}
+
+.bright {
+    background-color: #bf952d;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0%;
+}
+
+.levelsParent {
+    height: 25rem;
+    width: 80%;
+    top: 25%;
+    position: absolute;
+    left: 10%;
+}
+
+.level0 {
+    height: 5rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+}
+
+.l0Left {
+    height: 5rem;
+    width: 50%;
+    position: absolute;
+    left: 0%;
+    background-color: #0e713b;
+}
+
+.l0Right {
+    height: 5rem;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    background-color: #01a43b;
+}
+
+.level1 {
+    height: 5rem;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    bottom: 5rem;
+}
+
+.l1Left {
+    height: 5rem;
+    width: 50%;
+    position: absolute;
+    left: 0%;
+    background-color: #0e713b;
+}
+
+.l1Right {
+    height: 5rem;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    background-color: #01a43b;
+}
+
+.level2 {
+    height: 5rem;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    bottom: 10rem;
+}
+
+.l2Left {
+    height: 5rem;
+    width: 50%;
+    position: absolute;
+    left: 0%;
+    background-color: #0e713b;
+}
+
+.l2Right {
+    height: 5rem;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    background-color: #01a43b;
+}
+
+.level3 {
+    height: 5rem;
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    bottom: 15rem;
+}
+
+.l3Left {
+    height: 5rem;
+    width: 50%;
+    position: absolute;
+    left: 0%;
+    background-color: #0e713b;
+}
+
+.l3Right {
+    height: 5rem;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    background-color: #01a43b;
+}
+
+.level4 {
+    height: 5rem;
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    bottom: 20rem;
+}
+
+.l4Left {
+    height: 5rem;
+    width: 50%;
+    position: absolute;
+    left: 0%;
+    background-color: #0e713b;
+}
+
+.l4Right {
+    height: 5rem;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    background-color: #01a43b;
+}
+
+#dec1 {
+    height: 25px;
+    width: 25px;
+    background-color: #e7b75c;
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+}
+
+#dec2 {
+    height: 25px;
+    width: 25px;
+    background-color: #28527c;
+    position: absolute;
+    bottom: 7%;
+    left: 45%;
+}
+
+#dec3 {
+    height: 25px;
+    width: 25px;
+    background-color: #ea385c;
+    position: absolute;
+    bottom: 5%;
+    left: 80%;
+}
+
+#dec4 {
+    height: 25px;
+    width: 25px;
+    background-color:#386fb1;
+    position: absolute;
+    bottom: 45%;
+    left: 37%;
+}
+
+#dec5 {
+    height: 25px;
+    width: 25px;
+    background-color:#b28947;
+    position: absolute;
+    bottom: 30%;
+    left: 60%;
+}
+
+#dec6 {
+    height: 25px;
+    width: 25px;
+    background-color:#d1e049;
+    position: absolute;
+    bottom: 65%;
+    left: 55%;
+}
+
+.gift1 {
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: #4e51ae;
+    position: absolute;
+    bottom: 10%;
+}
+
+.g1line1 {
+    height: 4.5rem;
+    width: 0.75rem;
+    background-color: #bdb0e1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.g1line2 {
+    height: 0.75rem;
+    width: 4.5rem;
+    background-color: #bdb0e1;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.gift2 {
+    height: 3rem;
+    width: 3rem;
+    background-color: #ff3d3d;
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+}
+
+.g2line1 {
+    height: 3rem;
+    width: 0.75rem;
+    background-color: rgb(240, 239, 239);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.g2line2 {
+    height: 0.75rem;
+    width: 3rem;
+    background-color: rgb(240, 239, 239);
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.gift3 {
+    height: 4rem;
+    width: 8rem;
+    background-color: #ffb83d;
+    position: absolute;
+    bottom: 12%;
+    left: 65%;
+}
+
+.g3line1 {
+    height: 4rem;
+    width: 0.75rem;
+    background-color: rgb(240, 205, 205);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.g3line2 {
+    height: 0.75rem;
+    width: 8rem;
+    background-color: rgb(240, 205, 205);
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.snowflake {
+    background-color: #fff;
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0 0 30px rgb(124, 124, 124));
+}
+
+@-webkit-keyframes snowflakes-fall {
+    0% {
+        top: -10%
+    }
+    100% {
+        top: 100%
+    }
+}
+
+@-webkit-keyframes snowflakes-shake {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(80px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes snowflakes-fall {
+    0% {
+        top: -10%
+    }
+    100% {
+        top: 100%
+    }
+}
+
+@keyframes snowflakes-shake {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(80px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.snowflake {
+    position: fixed;
+    top: -10%;
+    z-index: 9999;
+    user-select: none;
+    cursor: default;
+    animation-name: snowflakes-fall, snowflakes-shake;
+    animation-duration: 10s, 3s;
+    animation-timing-function: linear, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+    animation-play-state: running, running;
+}
+
+.snowflake:nth-of-type(0) {
+    left: 1%;
+    animation-delay: 0s, 0s;
+}
+
+.snowflake:nth-of-type(1) {
+    left: 10%;
+    animation-delay: 1s, 1s;
+}
+
+.snowflake:nth-of-type(2) {
+    left: 20%;
+    animation-delay: 6s, 0.5s;
+}
+
+.snowflake:nth-of-type(3) {
+    left: 30%;
+    animation-delay: 4s, 2s;
+}
+
+.snowflake:nth-of-type(4) {
+    left: 40%;
+    animation-delay: 8s, 2s;
+}
+
+.snowflake:nth-of-type(5) {
+    left: 50%;
+    animation-delay: 2.5s, 1s;
+}
+
+.snowflake:nth-of-type(6) {
+    left: 60%;
+    animation-delay: 4s, 0s;
+}
+
+.snowflake:nth-of-type(7) {
+    left: 70%;
+    animation-delay: 2.5s, 2s;
+}
+
+.snowflake:nth-of-type(8) {
+    left: 80%;
+    animation-delay: 1s, 0s;
+}
+
+.snowflake:nth-of-type(9) {
+    left: 90%;
+    animation-delay: 3s, 1.5s;
+}
